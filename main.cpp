@@ -96,7 +96,7 @@ pair<string,string> getBinaryandCompressed(string &str,unordered_map<char,string
     return {binary,compressed};
 }
 
-string Retrieved(string &str1,unordered_map<string,char>&sc){
+string RetrieveString(string &str1,unordered_map<string,char>&sc){
     string ans="",current="";
     for(char ch:str1){
         current+=ch;
@@ -151,7 +151,7 @@ int main()
    cout<<"Compressed Representation Of string:"<<endl;
    cout<<str1<<endl;
    cout<<"Retrieved String from Compressed String:"<<endl;
-   string ans=Retrieved(str1,sc);
+   string ans=RetrieveString(str1,sc);
    cout<<ans<<endl;
    if(str==ans){
        cout<<"Retrived string matched!!"<<endl;
