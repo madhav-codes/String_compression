@@ -87,7 +87,7 @@ void generateCodes(Node *root,unordered_map<string,char>&sc,unordered_map<char,s
     }
 }
 
-pair<string,string> getBinaryandCompressed(string &str,unordered_map<char,string>&cs){
+pair<string,string> getBinaryandCompressedStrings(string &str,unordered_map<char,string>&cs){
     string binary="",compressed="";
     for(char ch:str){
         binary+=bitset<8>(ch).to_string();
@@ -144,7 +144,7 @@ int main()
    else{
         generateCodes(father,sc,cs);
    }
-   pair<string,string>representations=getBinaryandCompressed(str,cs);
+   pair<string,string>representations=getBinaryandCompressedStrings(str,cs);
    cout<<"Binary Repsentaion Of String:"<<endl;
    cout<<representations.first<<endl;
    string str1=representations.second;
