@@ -1,8 +1,4 @@
 # String_compression
-This project shows C++ illustration of compression of string. It uses Huffman Coding algorithm. Besides this project also uses Hashmap, Tree and PriorityQueue data structures for various purposes.
+This project shows C++ illustration of compression of string. It uses Huffman Coding algorithm.Huffman algorithm is a Lossless compression algorithm which performs effectively when frequency of similar characters are high. Besides this project also uses Hashmap, Tree and PriorityQueue data structures for various purposes.
 
-![1a64df0b-fab6-413d-98e0-0e5b5d74bacb](https://github.com/madhav-codes/String_compression/assets/76524589/908d0aef-4839-4a38-a641-3e51793781ff)
-
-
-
-Read More About Huffmann Coding: https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/
+<img width="1182" alt="Screenshot 2024-06-23 at 11 55 51 PM" src="https://github.com/madhav-codes/String_compression/assets/76524589/5f8b44fa-04bb-47ac-a64a-d208b8871b54">
