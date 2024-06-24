@@ -121,7 +121,6 @@ void efficiencyCalculation(string &str,string &compressed){
 
 int main()
 {
-//   string str="%$#@%^^@$&@$%&^%#";
   string str;
   getline(cin,str);
    if(str.size()==0){
